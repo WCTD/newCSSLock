@@ -1,0 +1,29 @@
+*{
+    background-color: #1E1E1E;
+    pointer-events: none;
+}
+
+body{
+    color: rgb(194, 65, 65);
+    height: 100vh;
+}
+
+.answer {
+    position: absolute;
+    left: 40%;
+    top: 36%;
+
+}
+
+.answerCover{
+    position: absolute;
+    left: 41%;
+    top: 44%;
+    z-index: 2;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
