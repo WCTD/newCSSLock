@@ -8,16 +8,19 @@ body{
     height: 100vh;
 }
 
-.answer {
+.b {
     position: absolute;
     left: 40%;
-    top: 36%;
+    top: 44%;
+}
 
+.a, .c, .d, .e, .f, .g, .h{
+    display: none;
 }
 
 .answerCover{
     position: absolute;
-    left: 41%;
+    left: 40%;
     top: 44%;
     z-index: 2;
     height: 100px;
